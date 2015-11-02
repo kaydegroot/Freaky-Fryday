@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">De_Familie_Yggdrasil</string>
+    <string name="title_activity_yggdrasil">YggdrasilActivity</string>
 </resources>

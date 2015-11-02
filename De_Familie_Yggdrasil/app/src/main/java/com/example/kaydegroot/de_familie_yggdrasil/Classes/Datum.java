@@ -14,9 +14,20 @@ public class Datum {
         this.jaar = jaar;
     }
 
+    public Datum(String date){
+        fromString(date);
+    }
+
     @Override
     public String toString() {
         return dag + "-" + maand + "-" + jaar;
+    }
+
+    public void fromString(String d){
+        String[] tijd = d.split("-");
+        this.dag= Integer.parseInt(tijd[0]);
+        this.maand= Integer.parseInt(tijd[1]);
+        this.jaar= Integer.parseInt(tijd[2]);
     }
 
     public int getDag() {

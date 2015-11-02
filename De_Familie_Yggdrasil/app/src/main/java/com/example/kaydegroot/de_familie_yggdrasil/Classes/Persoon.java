@@ -22,6 +22,7 @@ public class Persoon {
         this.achternaam = achternaam;
         this.tussenvoegsel = tussenvoegsel;
         this.geboortedatum = geboortedatum;
+        this.overlijdinsdatum = null;
         this.generatie = generatie;
         this.ouder1ID = ouder1ID;
         this.ouder2ID = ouder2ID;
